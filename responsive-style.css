@@ -1,0 +1,95 @@
+
+ 
+html{
+
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+} 
+
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;700&family=Encode+Sans+Semi+Expanded:wght@400;500;800&family=PT+Serif+Caption&family=Raleway:wght@300;400;600;800&family=Titillium+Web:wght@300;400;700;900&display=swap');
+
+  /* font-family: 'Edu SA Beginner', cursive; */
+  /* font-family: 'Encode Sans Semi Expanded', sans-serif; */
+  font-family: 'PT Serif Caption', serif;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Titillium Web', sans-serif; */
+
+
+}
+
+@keyframes animation{
+
+    0%{
+        transform: scale(1);
+        opacity: 1;
+        
+    }
+    100%{
+        transform: scale(1.5);
+        opacity: 0;
+
+    }
+}
+
+@keyframes animation3{
+
+    0%{
+        transform: scale(1);
+        opacity: 1;
+        
+    }
+    100%{
+        transform: scale(1.5);
+        opacity: 0;
+
+    }
+}
+
+
+
+@media (max-width:968px){
+    
+    .web h4,.hosting h4,.marketing h4 {
+        font-size: 1.4rem;
+    }
+    .s-1 h3{
+
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .testimonial_box p{
+        font-size: 1rem;
+        font-weight: 100;
+        padding: 0.44 rem 0.44rem;
+      font-family: 'Encode Sans Semi Expanded', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+
+
+    }
+
+    .testimonial_name h4{
+        
+          font-family: 'Encode Sans Semi Expanded', sans-serif;
+     
+    }
+    .info-box h4 {
+
+        font-size: 2rem;
+        font-family: cursive;
+    
+    }
+    .info-box h3{
+        font-size: 1rem;
+    }
+    .info-box ul li{
+        font-size: 0.885rem;
+        font-family: monospace;
+    }
+
+    .info-box p{
+        font-family:  monospace;
+    }
+
+}
